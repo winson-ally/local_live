@@ -1,0 +1,14 @@
+
+轮播图:https://www.escook.cn/slides
+
+商铺分类:https://www.escook.cn/categories
+
+商铺列表:https://www.escook.cn/categories/:cate_id/shops
+URL地址中的:cate_id是动态参数，可以使用模板字符串`${}`把商铺分类里面的id变量代入
+请求类型：GET
+请求参数：
+
+	data: {
+			_page: 获取页数,
+			_limit: 每页多少条数据
+		  }

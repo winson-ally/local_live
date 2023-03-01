@@ -1,0 +1,12 @@
+.topswp image{
+    width: 100%;
+}
+.sc_od{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20rpx;
+}
+.sc_od button{
+    margin: 0;
+}

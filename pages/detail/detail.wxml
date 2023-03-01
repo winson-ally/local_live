@@ -1,0 +1,12 @@
+<swiper class="topswp">
+    <swiper-item wx:for="{{spMsg.images}}">
+        <image src="{{item}}" />
+    </swiper-item>
+</swiper>
+<view class="sc_od">
+    <view class="score">
+        商铺评分：
+        <text>{{spMsg.score}}</text>
+    </view>
+    <button bindtap="xiadan" size="mini">立即下单</button>
+</view>

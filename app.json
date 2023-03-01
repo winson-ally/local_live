@@ -1,0 +1,16 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/shops/shops",
+        "pages/detail/detail",
+        "pages/xiadan/xiadan"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

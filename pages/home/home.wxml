@@ -1,0 +1,18 @@
+<swiper indicator-dots indicator-active-color="#ccc" circular autoplay
+class="topswp">
+    <swiper-item wx:for="{{swpLis}}" wx:key="id">
+        <image src="{{item.image}}"  />
+    </swiper-item>
+</swiper>
+<view class="spLis">
+    <navigator url="/pages/shops/shops?id={{item.id}}&title={{item.name}}"
+    wx:for="{{shopLis}}" wx:key="id"
+    class="spItem">
+        <image src="{{item.icon}}" />
+        <text>{{item.name}}</text>
+    </navigator>
+</view>
+<view class="newImg">
+    <image src="../../img/4.png" mode="widthFix" />
+    <image src="../../img/5.png" mode="widthFix" />
+</view>

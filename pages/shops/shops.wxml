@@ -1,0 +1,10 @@
+<view bindtap="gotoDtl" data-dtl="{{item}}"
+class="shopMsg" wx:for="{{msg}}">
+    <image src="{{item.images[0]}}" />
+    <view class="msg">
+        <view class="name">{{item.name}}</view>
+        <view class="tel">电话：{{item.phone}}</view>
+        <view class="add">地址：{{item.address}}</view>
+        <view class="time">营业时间：{{item.businessHours}}</view>
+    </view>
+</view>
